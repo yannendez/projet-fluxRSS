@@ -1,0 +1,79 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(photoFlux.jpeg) no-repeat center center fixed; 
+    background-size: cover;
+
+}
+
+form {
+    margin:auto;
+    padding: 30px;
+    padding-top: 20px;
+    margin-top:10%;
+    width:600px;
+    box-shadow: 8px 8px 10px black;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#container{
+    display: flex;
+}
+
+#ele1{
+    width: 200px;
+}
+
+#ele2{
+    width: 380px;
+}
+
+#ele1 label{
+    width: 100%;
+    line-height: 60px;
+    font-size: 0.55cm;
+    display:block;
+}
+
+p{
+    text-align: center;
+    margin: 0px;
+    font-size: 0.8cm;
+}
+
+h1{
+    width: 38%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9cm;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=password] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: 2px solid rgb(187, 187, 187);
+}
+
+input[type=submit], input[type=reset] {
+    width: 100%;
+    margin: 8px auto;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-size: 0.5cm;
+    font-weight: bold;
+    padding: 14px 20px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    font-weight: bolder;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="view/design/homeDesign.css">
+    <title>Service d'Authentification</title>
+</head>
+<body>
+
+    <form action="controler/login.ctrl.php" method="POST">
+        <p>&#128274;</p>
+        <h1>Connexion</h1>
+        <hr>
+
+        <div id="container">
+            <div id="ele1">
+                <label for="user"><b>Login utilisateur</b></label>
+                <label for="mdp"><b>Mot de passe</b></label>
+            </div>
+
+            <div id="ele2">
+                <input id="user" type="text" placeholder="LéoDubois83" name="user" required>
+                <input id="mdp" type="password" placeholder="On évite les Dates de naissance..." name="mdp" required>
+            </div>
+        </div>
+
+        <input type="submit" id='submit' value='SE CONNECTER'>
+        <input type="reset" id='submit2' value='EFFACER'>
+
+    </form>
+    </body>
+</html>
